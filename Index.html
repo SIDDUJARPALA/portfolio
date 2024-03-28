@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/10c2f9406c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div id="container">
+            
+            <nav >
+                <img src="img4.png"  class="logo">
+                
+               
+                <ul id="sidemenu">
+                  
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Devloper</p>
+                <h1>Hi,I'm <span>Siddu</span><br>Jarpala from Telangana</h1>
+            </div>
+        </div>
+    </div>
+    <div>
+        <!----------About---------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+
+                    <div class="about-col-1">
+                       <img src="img6.ong.jpeg" alt=""> 
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>Enthusiastic Mechanical Engineering graduate proficient in C/C++, Web devlopment, and strong problem-solving. Seeking an entry-level position to apply technical skills, contribute to a dynamic. team, and enhance problem-solving abilities in a growth-oriented environment.</p>
+                    <div class="tab-titles" >
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">EDUCATION</p>
+                    </div>
+                    <div class="tab-contents  active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Devlopment</span><br>Web App Devlopment</li>
+                            <li><span>Programming Language</span><br>C/C++,Java,JavaScript</li>
+                            <li><span>Tools/Frameworks</span><br>HTML,CSS,EXcel,Word,Power Point</li>
+                            <li><span>Concept</span><br>Data Structure ans Algorithms,OOPs</li>
+                            <li><span>Soft skills</span><br>English Proficiency ,Communication skills,Presentation</li>
+                           
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents"  id="experience">
+                        <ul>
+                            <li><span>2022</span><br>SHIVANKIT TECH SOLUTION</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.Tech from IIITDMJ</li>
+                            <li><span>2018-2020</span><br>Intermidiate from Krishnaveni clg,Telangana</li>
+                            <li><span>2018</span><br>Secondary education from Ushodaya School ,Telangana</li>
+                           
+                            
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!------Services-->
+    <div id="services">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-square-person-confined"></i>
+                <h2>Human Activity recognition using smartphone dataset</h2>
+                <p>
+                    
+                    Implemented a Human Activity Recognition system utilizing machine learning techniques on a dataset collected from smartphone sensors. The goal was to classify various activities such as walking, running, sitting, etc., based on the sensor data.
+
+                    Utilized Python, Libraries/Frameworks: scikit-learn, pandas, NumPy, Matplotlib, Seaborn Machine Learning
+                    
+                    Algorithms: Decision Trees, Random Forest, Support Vector Machines.
+                    Implemented machine learning algorithms, including Decision Trees, Random Forest, and Support Vector Machines, to classify human activities accurately.  
+                </p>
+                <a href="">Link</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-clone"></i>
+                <h2>Amazon Clone Website</h2>
+                <p>Developed a static e-commerce website resembling the Amazon platform using only HTML and CSS. The project focused on replicating the visual elements and layout of Amazon's homepage to enhance front-end development. skills and showcase proficiency in building responsive and visually appealing web pages.
+                
+                    
+                    
+                    Created a pixel-perfect clone of the Amazon homepage using HTML for structure and CSS for styling, emphasizing attention to detail in replicating the layout, navigation, and visual elements
+                </p>
+                <a href="">Link</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-table-list"></i>
+                <h2>ToDo List Webapp</h2>
+                <p>A clean and user-friendly Todo web app built with HTML, CSS, and JavaScript. Stay organized and manage your tasks effortlessly with its intuitive design and two customizable themes. Simplify your task management workflow with this efficient and visually appealing application.</p>
+            <a href="">Link</a>
+
+            </div>
+            
+
+        </div>
+    </div>
+    <!-------------Portfolio--------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img7.png">
+                    <div class="layer">
+                        <h3>ToDOList App</h3>
+                        <p>this is todolist app we write our activities what we 
+                            have to do in a day</p>
+                            <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    
+                    
+                </div>
+                <div class="work">
+                    <img src="img8.png">
+                    <div class="layer">
+                        <h3>Amazon clone app</h3>
+                        <p>this is Amazon clone app useful to shopping purpose.we can daily purches our items </p>
+                            <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img9.png">
+                    <div class="layer">
+                        <h3>Activity App</h3>
+                        <p>this is Activity app useful to us is it can record our daily activity like running,walking,it can also measure the pulse rate</p>
+                            <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+
+    </div>
+    <!-------------Contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i></i>jarpalasiddu@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9014243762</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="jarpalasiddu.pdf" download class="btn btn2 ">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form  name="submit-to-google-sheet">
+                       <input type="text" name="Name" placeholder="your Name" required> 
+                       <input type="email" name="email" placeholder="your Email" required> 
+                       <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                       <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright@Jarpalasiddu<i class="fa-solid fa-heart"></i> website</p>
+        </div>
+
+    </div> 
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
